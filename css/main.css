@@ -5,7 +5,7 @@ html, body{
 }
 
 html{
-    background-image: url("../Images/patties5.png");
+    background-image: url("../Images/patties5small.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -17,12 +17,6 @@ body {
   padding-bottom: 2.5rem;
 }
 
-/* On screens that are less than 400px, change the background image to a smaller sizer so that it displays better on mobile devices */
-@media screen and (max-width: 400px) {
-    html{
-       background-image: url("../Images/patties5small.png");
-    }
-}
 
 /*NAV*/
 #navbar {
@@ -142,8 +136,7 @@ a {
 
 hr{
     border: 1px black solid;
-    max-width: 20em;
-    width: 100%;
+    width: 80%;
 }
 .divider {
   width: 80%;

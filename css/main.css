@@ -4,15 +4,23 @@ html, body{
     padding: 0px;
     scroll-behavior: smooth;
 }
-
-html{
+html {
+  background: url("../images/patties5small.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  /* overflow: hidden; */
+}
+/* html{
     background-image: url("../images/patties5small.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-color: antiquewhite;
-}
+} */
 body {
   position: relative;
   min-height: 100vh;
